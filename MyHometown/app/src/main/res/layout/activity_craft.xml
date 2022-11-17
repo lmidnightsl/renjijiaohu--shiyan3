@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Craft">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <ImageView
+        android:id="@+id/fooddisplay"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/craftdisplay"
+        android:scaleType="fitXY">
+    </ImageView>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="260dp"
+        android:text="潮州市享有中国瓷都的美名，关于陶瓷历史已有4000多年，是世界最大的陶瓷生产基地，同时潮州工艺品种类繁多，主要有潮州石雕、木雕、玉雕、潮绣、麦秆画等。
+\n潮州工艺是潮州文化的一部分，潮州是全国最大的陶瓷生产基地和出口基地、国内产业链最完整的陶瓷产区。潮州此前已获中国瓷都称号，是世界最大的陶瓷生产基地，已形成国内外最具规模的产业集群，是国内产业链最完善的陶瓷产区，产品远销海内外。"
+        android:textColor="#000000"
+        android:textSize="23dp">
+    </TextView>
+    <Button
+        android:id="@+id/craft_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="850dp"
+        android:background="@drawable/craft">
+    </Button>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="172dp"
+        android:layout_marginTop="940dp"
+        android:text="点击返回"
+        android:textColor="@color/black">
+    </TextView>
+    </RelativeLayout>
+</ScrollView>

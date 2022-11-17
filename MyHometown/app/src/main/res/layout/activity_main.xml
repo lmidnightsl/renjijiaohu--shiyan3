@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/main1"
+        android:scaleType="fitXY">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textmain1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="210dp"
+        android:text="我的家乡--潮州是一座拥有1600多年历史的文化古城，潮汕文化是岭南文化的重要组成部分，是中华文化的重要支脉。由于它悠久的历史文化，最近几年它算是有点小网红的城市，例如奶茶界新秀的鸭屎香奶茶，橄榄汁油杆汁，或是火锅界常青树的清汤牛肉火锅，这都属于潮州的饮食历史文化。可以说潮州是个后起之秀，是个逐渐被人熟知的文化历史名城。"
+        android:textColor="#000000"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/textmain2"
+        android:layout_width="373dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="500dp"
+        android:text="(点击下方按钮了解我家乡更多信息:D)"
+        android:textColor="#000000"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/buttonmain"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/btn"
+        android:text=":D"
+        android:visibility="visible">
+
+    </Button>
+
+</RelativeLayout>

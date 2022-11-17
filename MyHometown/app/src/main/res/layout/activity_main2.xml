@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/main2">
+
+    <Button
+        android:id="@+id/dialect"
+        android:layout_width="100dp"
+        android:layout_height="95dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/btn"
+        android:text="方言">
+
+    </Button>
+
+    <Button
+        android:id="@+id/folkart"
+        android:layout_width="100dp"
+        android:layout_height="95dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/btn"
+        android:text="曲艺"></Button>
+
+    <Button
+        android:id="@+id/folkways"
+        android:layout_width="100dp"
+        android:layout_height="95dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/btn"
+        android:backgroundTint="@android:color/white"
+        android:text="民俗">
+
+    </Button>
+
+    <Button
+        android:id="@+id/craft"
+        android:layout_width="100dp"
+        android:layout_height="95dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="315dp"
+        android:background="@drawable/btn"
+        android:text="工艺">
+
+    </Button>
+
+    <Button
+        android:id="@+id/architecture"
+        android:layout_width="100dp"
+        android:layout_height="95dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="315dp"
+        android:background="@drawable/btn"
+        android:text="建筑">
+
+    </Button>
+
+    <Button
+        android:id="@+id/food"
+        android:layout_width="100dp"
+        android:layout_height="95dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="315dp"
+        android:background="@drawable/btn"
+        android:text="饮食">
+
+    </Button>
+
+    <Button
+        android:id="@+id/buttonback"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/btn"
+        android:text="返回"
+        android:backgroundTint="@android:color/white">
+    </Button>
+
+    <Button
+        android:id="@+id/buttonfront"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/btn"
+        android:text="下一步">
+    </Button>
+</RelativeLayout>

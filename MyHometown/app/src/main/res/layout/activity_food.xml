@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="260dp"
+        android:text="饮食算是潮州历史文化最“出圈”的一个了，潮州工夫茶盛行1000多年，目前也是中国国家级非物质文化遗产，茶叶如凤凰单丛， 其中包括“鸭屎香”这个特殊名字，也因为这个名字这两年被人所熟知；潮州菜也有数千年的历史，大到有精贵的潮州菜，小到有大众式的潮州打冷生腌，各类小食数不胜数。
+\n潮州菜在国内外享有盛名，是由潮州原来独有的菜式与按潮州味加工改造了的菜式所构成的一个开放的体系。现今，潮州菜已经发展成为独具岭南文化特色、驰名海内外的中国名菜之一。潮州菜的最突出特点，是以烹制海鲜见长。对海鲜的烹调选料考究，制作精细，至于以酱碟佐料，达到新鲜美味，清而不淡，鲜而不腥，郁而不腻。潮州菜的另一特点，是善于烹制以蔬果为原料的素菜。有煎、炒、烹、炸、焖、炖、烤、焗、卤、熏扣、泡、滚、拌等，而且刀工讲究。多样化的制作方式，形成了潮州菜的风味特色。"
+        android:textColor="#000000"
+        android:textSize="23dp">
+    </TextView>
+    <Button
+        android:id="@+id/food_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="1200dp"
+        android:background="@drawable/food">
+    </Button>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="172dp"
+        android:layout_marginTop="1290dp"
+        android:text="点击返回"
+        android:textColor="@color/black">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/fooddisplay"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/fooddisplay"
+        android:scaleType="fitXY">
+    </ImageView>
+    </RelativeLayout>
+</ScrollView>

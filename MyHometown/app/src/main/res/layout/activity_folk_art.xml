@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FolkArt">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/fooddisplay"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/folkartdisplay"
+        android:scaleType="fitXY">
+    </ImageView>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="260dp"
+        android:text="潮剧，又称潮州戏，流行于闽粤以及东南亚各地，是全国的十大剧种之一，也是中国最古老的剧种之一，而潮州音乐因保留了古代汉族的音乐元素，在国内外也享有“华夏正音”的美称。
+\n潮剧历史悠久，风采独具。
+1976年在潮州西沙溪工程中出土的明宣德七年（1432年）手抄本《刘希必金钗记》，是现今发现的最早的潮剧演出本。数百年来，潮剧在形成和发展过程中，不断吸收当地民间艺术精华，使其音乐，唱腔，表演形式日趋丰富，逐步形成了自身的风格，成为全国十大剧种之一。1957年、1959年潮剧团二次晋京献演，党和国家领导人毛泽东、刘少奇、周恩来等先后观看了演出并接见演员合影留念。潮剧不但活跃于潮汕和闽南地带，在东南亚诸国也有着深远的影响"
+        android:textColor="#000000"
+        android:textSize="25dp">
+    </TextView>
+    <Button
+        android:id="@+id/folkart_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="1170dp"
+        android:background="@drawable/folk_art">
+    </Button>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="176dp"
+        android:layout_marginTop="1260dp"
+        android:text="点击返回"
+        android:textColor="@color/black">
+    </TextView>
+    </RelativeLayout>
+</ScrollView>

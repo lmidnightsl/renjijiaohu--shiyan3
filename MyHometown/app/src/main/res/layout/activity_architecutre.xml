@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Architecutre">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <ImageView
+        android:id="@+id/fooddisplay"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/architecturedisplay"
+        android:scaleType="fitXY">
+    </ImageView>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="260dp"
+        android:text="潮州的建筑文化历史悠久且独特，例如纪念诗人韩愈的韩文公祠，还有拥有中西文化合璧的骑楼的牌坊街，以及潮州古八景及新八景，总体说潮州市内有许多的国家级重点文物保护单位。
+\n潮州民居也拥有自己的独特的文化内涵。
+沿江沿海平原地带，经济比较发达，许多望族多聚居在这些地方，旧县城也多有聚族而居情况。因此，城乡居民均有浓厚的氏族观念，体现在聚落建筑就是以姓氏宗祠为中心的围寨格局。清府县志载：“望族营建屋庐，必建家庙，尤加壮丽。”“雕梁画栋，池台竹树，必极工巧。大宗小宗，竞建祠堂，争夸壮丽，不惜赀费。”潮州农村多聚族而居，而整个村寨，都依其宗族观念、风水观念、生产生活、防御功能以及某些美学观念来营建，因此潮汕民居的大格局便是独特的理想风水人居环境。同时潮州民居直接地将大自然因素所谓“天时、地气、顺风”溶入建筑中，体现出人天和谐的统一境界和高尚心灵意境。
+潮州民居的建筑方位一般是取朝南偏东的，以南为主。这样一来，冬天可挡住严寒的北风，夏天则可以接受凉快的南风。"
+        android:textColor="#000000"
+        android:textSize="23dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/architecture_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="1360dp"
+        android:background="@drawable/architecture">
+    </Button>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="172dp"
+        android:layout_marginTop="1450dp"
+        android:text="点击返回"
+        android:textColor="@color/black">
+    </TextView>
+    </RelativeLayout>
+</ScrollView>

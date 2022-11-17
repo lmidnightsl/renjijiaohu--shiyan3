@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Folkways">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/fooddisplay"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/folkwaysdisplay"
+            android:scaleType="fitXY">
+        </ImageView>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="“营老爷”是潮汕地区独特的民俗祭祀文化活动。潮汕人称神仙为“老爷”、守护神，各乡村都有自己的神。潮汕地区都有“营老爷”的风俗，正月达到最高潮。把“老爷”从庙里请出来，在自己的村里游行，设祭坛或在祠堂前举行祭祀，活动结束后送回神庙安放。潮汕人称整个活动为“营老爷”。潮州正月“营老爷”各村各乡都有各自的民俗活动方式，有迎老爷、营老爷、走老爷、抛老爷、抢老爷、磨老爷等等。目的是答谢神恩一年来的庇佑，祈求新的一年风调雨顺、百业兴旺、五谷丰登，保佑安康、升官发财、人丁兴旺，让人人过上美好生活。"
+        android:textColor="#000000"
+        android:textSize="23dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/folkways_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="900dp"
+        android:background="@drawable/folkways">
+    </Button>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="172dp"
+        android:layout_marginTop="990dp"
+        android:text="点击返回"
+        android:textColor="@color/black">
+    </TextView>
+    </RelativeLayout>
+</ScrollView>
